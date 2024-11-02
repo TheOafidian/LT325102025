@@ -3,10 +3,6 @@
     { 
       "name": "Photos", 
       "url": "/photos" 
-    },
-    { 
-      "name": "Blog", 
-      "url": "/blog" 
     }
   ]
 }
