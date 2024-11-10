@@ -6,21 +6,6 @@ layout: main/base.html
     <!-- top navbar on mobile -->
     <div class="the-navbar sm:hidden">
       <div class="navbar-start">
-        <!-- back to posts -->
-        <a aria-label="back" href="https://theoafidian.github.io/LT325102025/photos" class="btn btn-ghost btn-circle">
-          <svg
-            xmlns="http://www.w3.org/2000/svg"
-            class="h-5 w-5"
-            fill="none"
-            viewBox="0 0 24 24"
-            stroke="currentColor">
-            <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="2"
-              d="M3 3h7v7H3V3zM14 3h7v7h-7V3zM3 14h7v7H3v-7zM14 14h7v7h-7v-7z" />
-          </svg>
-        </a>
         <!-- back home -->
         <a aria-label="home" href="https://theoafidian.github.io/LT325102025/" class="btn btn-ghost btn-circle">
           <svg
@@ -68,25 +53,10 @@ layout: main/base.html
     <!-- description -->
     <div class="sm:w-1/2 flex-grow flex flex-col overflow-hidden">
       <!-- top navbar -->
-      <div class="navbar bg-base-100 rounded-t-xl px-4 hidden sm:block border-b border-base-200">
-        <div class="navbar-start">
-          <!-- back to posts -->
-          <a aria-label="back" href="https://theoafidian.github.io/LT325102025/photos" class="btn btn-ghost btn-circle">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor">
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M3 3h7v7H3V3zM14 3h7v7h-7V3zM3 14h7v7H3v-7zM14 14h7v7h-7v-7z" />
-            </svg>
-          </a>
+      <div class="navbar bg-base-100 rounded-t-xl px-4 hidden sm:block border-b border-base-200">  
+        <div class="navbar-start"> 
           <!-- back home -->
-  			  <a aria-label="home" href="https://theoafidian.github.io/LT325102025/" class="btn btn-ghost btn-circle">
+  			  <a aria-label="home" href="https://theoafidian.github.io/LT325102025" class="btn btn-ghost btn-circle">
   			  	<svg
               xmlns="http://www.w3.org/2000/svg"
               class="h-5 w-5"
@@ -125,47 +95,9 @@ layout: main/base.html
       {%- assign nextPhotos = collections.photos | getNextCollectionItem %}
       {%- if nextPhotos or previousPhotos %}
       <div class="card-action navbar bg-base-100 rounded-b-xl px-4 border-t border-base-200">
-        <div class="navbar-start">
-          <!-- next post -->
-          {%- if nextPhotos %}
-          <a aria-label="next" href="{{ nextPhotos.url }}" class="btn btn-ghost btn-circle">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor">
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M10 19l-7-7m0 0l7-7m-7 7h18" />
-            </svg>
-          </a>
-          {% endif %}
-        </div>
         <!-- credit license -->
-        <div class="navbar-center">
-          <a class="text-md font-bold link link-hover" href="#">License</a>
-        </div>
-        <div class="navbar-end">
-          <!-- prev post -->
-          {%- if previousPhotos %}
-          <a aria-label="prev" href="{{ previousPhotos.url }}" class="btn btn-ghost btn-circle">
-            <svg
-              xmlns="http://www.w3.org/2000/svg"
-              class="h-5 w-5"
-              fill="none"
-              viewBox="0 0 24 24"
-              stroke="currentColor">
-              <path
-                stroke-linecap="round"
-                stroke-linejoin="round"
-                stroke-width="2"
-                d="M14 5l7 7m0 0l-7 7m7-7H3" />
-            </svg>
-          </a>
-          {% endif %}
+        <div class="navbar-start">
+          <a class="text-md font-bold link link-hover" href="#">25/10/2025</a>
         </div>
       </div>
       {% endif %}
