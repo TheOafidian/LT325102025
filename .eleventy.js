@@ -18,7 +18,7 @@ module.exports = function(eleventyConfig) {
 
   // Global data for root
   eleventyConfig.addGlobalData("rootTitle", "Tim Van Rillaer");
-  eleventyConfig.addGlobalData("rootURL", "https://github.com/TheOafidian");
+  eleventyConfig.addGlobalData("rootURL", "https://theoafidian.github.io/LT325102025");
 
   // Bypass dir
   const passthroughCopies = ["src/robots.txt", "src/asset/", "src/CNAME"];
