@@ -1,8 +1,8 @@
 ---
 layout: main/index.html
 title: Save the Date
-description: Eleventy starter for photographer/artist
-keyword: photography, camera, blog
+description: Wij zijn getrouwd en zouden dit graag met jullie vieren!
+keyword: wedding
 author: Lauren & Tim
 cover: https://theoafidian.github.io/LT325102025/asset/index/cover.webp
 profile: https://theoafidian.github.io/LT325102025/asset/index/profile.webp
