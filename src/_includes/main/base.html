@@ -24,13 +24,13 @@
     {% else %}
       <meta name="twitter:image" content="{{ rootURL }}/asset/index/cover.webp">
     {% endif %}
-    <link rel="stylesheet" href="/asset/css/style.css">
+    <link rel="stylesheet" href="{{ rootURL }}/asset/css/style.css">
     <meta name="view-transition" content="same-origin">
     <!-- search -->
-    <link rel="modulepreload" as="script" crossorigin href="/asset/js/search.js">
-    <link rel="modulepreload" as="script" crossorigin href="/asset/js/search-global.js">
+    <link rel="modulepreload" as="script" crossorigin href="{{ rootURL }}/asset/js/search.js">
+    <link rel="modulepreload" as="script" crossorigin href="{{ rootURL }}/asset/js/search-global.js">
     <!-- lazyimages -->
-    <script src="/asset/js/lazysizes.min.js"></script>
+    <script src="{{ rootURL }}/asset/js/lazysizes.min.js"></script>
     <script type="application/ld+json">{"@context":"http://schema.org","@type":"WebSite","name":"{{ title }}","url":"{{ rootURL }}{{ page.url }}"}</script>
   </head>
   <body class="bg-base-200">
