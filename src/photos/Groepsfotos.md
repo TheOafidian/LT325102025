@@ -1,13 +1,11 @@
 ---
 layout: main/post-photos.html
-title: Foto's met de familie
-description: Eh
-keyword: familie
+title: Wall
+description: e
+keyword: e
 cover: 
-  - url: /asset/photos/group1.webp
-  - url: /asset/photos/group2.webp
-thumbnail: /asset/photos/group1.webp
-date: 2024-10-05
-tags: familie
+  - url: /asset/photos/wedding2.webp
+thumbnail: /asset/photos/wedding2.webp
+date: 2024-10-04
+tags: wall
 ---
-Wat uitleg over den trouw eh

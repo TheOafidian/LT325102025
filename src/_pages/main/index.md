@@ -9,8 +9,7 @@ profile: /asset/index/profile.webp
 permalink: /index.html
 ---
 
-#### 25 Oktober 2025
-Wij zijn getrouwd en zouden dit graag met jou vieren!
+Wij zijn getrouwd en zouden dit graag met jullie vieren!
+We nodigen jullie daarom uit op **25 Oktober 2025**, dus zet dit alvast maar in den agenda 😉
 
 {% include "index/recent.html" %}
-W
