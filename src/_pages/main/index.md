@@ -4,8 +4,8 @@ title: Save the Date
 description: Eleventy starter for photographer/artist
 keyword: photography, camera, blog
 author: Lauren & Tim
-cover: /asset/index/cover.webp
-profile: /asset/index/profile.webp
+cover: https://theoafidian.github.io/LT325102025/asset/index/cover.webp
+profile: https://theoafidian.github.io/LT325102025/asset/index/profile.webp
 permalink: /index.html
 ---
 
